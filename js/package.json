@@ -1,0 +1,47 @@
+{
+  "name": "proofrev-agent-economics",
+  "version": "0.1.0",
+  "description": "Deterministic zero-dependency utilities for AI-agent revenue evidence, margin, and zero-capital eligibility.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepack": "npm test"
+  },
+  "keywords": [
+    "ai-agents",
+    "agent-commerce",
+    "revenue-proof",
+    "unit-economics",
+    "x402",
+    "marketplace",
+    "payments",
+    "guardrails"
+  ],
+  "license": "MIT",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liusan629-eng/proofrev-agent-economics.git",
+    "directory": "js"
+  },
+  "homepage": "https://github.com/liusan629-eng/proofrev-agent-economics#readme",
+  "bugs": {
+    "url": "https://github.com/liusan629-eng/proofrev-agent-economics/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

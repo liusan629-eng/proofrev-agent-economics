@@ -1,0 +1,99 @@
+JAVASCRIPT TESTS
+
+> proofrev-agent-economics@0.1.0 test
+> node --test
+
+TAP version 13
+# Subtest: does not treat weak evidence as proven
+ok 1 - does not treat weak evidence as proven
+  ---
+  duration_ms: 0.87233
+  type: 'test'
+  ...
+# Subtest: computes net margin
+ok 2 - computes net margin
+  ---
+  duration_ms: 0.165244
+  type: 'test'
+  ...
+# Subtest: checks zero-capital structure
+ok 3 - checks zero-capital structure
+  ---
+  duration_ms: 0.16227
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 55.779093
+
+NPM PACKAGE
+npm notice
+npm notice package: proofrev-agent-economics@0.1.0
+npm notice Tarball Contents
+npm notice 1.1kB LICENSE
+npm notice 965B README.md
+npm notice 266B SECURITY.md
+npm notice 1.1kB package.json
+npm notice 3.7kB src/index.js
+npm notice Tarball Details
+npm notice name: proofrev-agent-economics
+npm notice version: 0.1.0
+npm notice filename: proofrev-agent-economics-0.1.0.tgz
+npm notice package size: 3.2 kB
+npm notice unpacked size: 7.0 kB
+npm notice shasum: 86f9ca065475303df3c3701d628cc45fef10e4c0
+npm notice integrity: sha512-0YB0SDygJYShz[...]fLZAOPtsY1VSg==
+npm notice total files: 5
+npm notice
+proofrev-agent-economics-0.1.0.tgz
+
+PYTHON TESTS
+PASS: Python core tests 3/3
+
+PYTHON WHEEL
+WARNING: The directory '/home/oai/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing /mnt/data/proofrev-publish-ready-liusan629-eng/python
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: proofrev-agent-economics
+  Building wheel for proofrev-agent-economics (pyproject.toml): started
+  Building wheel for proofrev-agent-economics (pyproject.toml): finished with status 'done'
+  Created wheel for proofrev-agent-economics: filename=proofrev_agent_economics-0.1.0-py3-none-any.whl size=4349 sha256=2eae51eea115edac35e2718276c1eac77cbea1d78f532f9cd41ef68ab2fff8e9
+  Stored in directory: /tmp/pip-ephem-wheel-cache-k4jl5v2h/wheels/ec/93/54/298c87f263f941804f7017282081c5f81c16ccb806a802b10e
+Successfully built proofrev-agent-economics
+
+PYTHON SDIST
+running sdist
+running egg_info
+writing src/proofrev_agent_economics.egg-info/PKG-INFO
+writing dependency_links to src/proofrev_agent_economics.egg-info/dependency_links.txt
+writing top-level names to src/proofrev_agent_economics.egg-info/top_level.txt
+reading manifest file 'src/proofrev_agent_economics.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/proofrev_agent_economics.egg-info/SOURCES.txt'
+running check
+creating proofrev_agent_economics-0.1.0
+creating proofrev_agent_economics-0.1.0/src/proofrev_agent_economics
+creating proofrev_agent_economics-0.1.0/src/proofrev_agent_economics.egg-info
+creating proofrev_agent_economics-0.1.0/tests
+copying files to proofrev_agent_economics-0.1.0...
+copying LICENSE -> proofrev_agent_economics-0.1.0
+copying README.md -> proofrev_agent_economics-0.1.0
+copying pyproject.toml -> proofrev_agent_economics-0.1.0
+copying src/proofrev_agent_economics/__init__.py -> proofrev_agent_economics-0.1.0/src/proofrev_agent_economics
+copying src/proofrev_agent_economics.egg-info/PKG-INFO -> proofrev_agent_economics-0.1.0/src/proofrev_agent_economics.egg-info
+copying src/proofrev_agent_economics.egg-info/SOURCES.txt -> proofrev_agent_economics-0.1.0/src/proofrev_agent_economics.egg-info
+copying src/proofrev_agent_economics.egg-info/dependency_links.txt -> proofrev_agent_economics-0.1.0/src/proofrev_agent_economics.egg-info
+copying src/proofrev_agent_economics.egg-info/top_level.txt -> proofrev_agent_economics-0.1.0/src/proofrev_agent_economics.egg-info
+copying tests/test_core.py -> proofrev_agent_economics-0.1.0/tests
+copying src/proofrev_agent_economics.egg-info/SOURCES.txt -> proofrev_agent_economics-0.1.0/src/proofrev_agent_economics.egg-info
+Writing proofrev_agent_economics-0.1.0/setup.cfg
+Creating tar archive
+removing 'proofrev_agent_economics-0.1.0' (and everything under it)
+proofrev_agent_economics-0.1.0.tar.gz

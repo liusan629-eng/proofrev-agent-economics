@@ -1,0 +1,54 @@
+Metadata-Version: 2.4
+Name: proofrev-agent-economics
+Version: 0.1.0
+Summary: Deterministic zero-dependency utilities for AI-agent revenue evidence, margin, and zero-capital eligibility.
+Author: ProofRev contributors
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/liusan629-eng/proofrev-agent-economics
+Project-URL: Repository, https://github.com/liusan629-eng/proofrev-agent-economics
+Project-URL: Issues, https://github.com/liusan629-eng/proofrev-agent-economics/issues
+Keywords: ai-agents,agent-commerce,revenue-proof,unit-economics,payments,x402
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# proofrev-agent-economics — Python
+
+Zero-runtime-dependency utilities for AI-agent commerce.
+
+```python
+from proofrev_agent_economics import (
+    score_revenue_evidence,
+    compute_net_margin,
+    assess_zero_capital,
+)
+
+score = score_revenue_evidence({
+    "evidenceTier": "PAID_EXTERNAL_ONCHAIN_MAPPED",
+    "payerIndependenceVerified": True,
+    "serviceMappingVerified": True,
+    "linkedClusterRisk": 0,
+    "uniqueExternalBuyers": 3,
+    "repeatExternalBuyers": 1,
+    "settledRevenueUsd": 12.5,
+})
+
+margin = compute_net_margin({
+    "revenueUsd": 10,
+    "supplierUsd": 2,
+    "platformFeeUsd": 1,
+    "aiComputeUsd": 0.5,
+})
+```
+
+The library makes no network calls and stores no credentials.
+It is an engineering utility, not accounting, legal, investment, or audit advice.

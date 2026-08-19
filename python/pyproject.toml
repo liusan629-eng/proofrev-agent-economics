@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proofrev-agent-economics"
+version = "0.1.0"
+description = "Deterministic zero-dependency utilities for AI-agent revenue evidence, margin, and zero-capital eligibility."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  {name = "ProofRev contributors"}
+]
+keywords = ["ai-agents", "agent-commerce", "revenue-proof", "unit-economics", "payments", "x402"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/liusan629-eng/proofrev-agent-economics"
+Repository = "https://github.com/liusan629-eng/proofrev-agent-economics"
+Issues = "https://github.com/liusan629-eng/proofrev-agent-economics/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
