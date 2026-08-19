@@ -23,7 +23,7 @@ Small, deterministic, zero-runtime-dependency utilities for AI-agent commerce an
 - MIT licensed
 - CI and OIDC publishing workflows included
 
-## Planned repository
+## Repository
 
 `liusan629-eng/proofrev-agent-economics`
 
